@@ -39,13 +39,6 @@ Product.init(
         key: 'id',
       }
     },
-    tags: {
-      type: DataTypes.ARRAY,
-      references: {
-        model: 'tag',
-        key: 'id',
-      }
-    }
   },
   {
     sequelize,
